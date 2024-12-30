@@ -9,7 +9,7 @@ public abstract class BaseIDependency implements IDependency {
     public abstract String getGradleDependency();
 
     @Override
-    public String writeDependency(String dependency, BuildToolsType buildTool) {
+    public String writeDependency(BuildToolsType buildTool) {
         if (buildTool == BuildToolsType.MAVEN) {
             return getMavenDependency();
         }
