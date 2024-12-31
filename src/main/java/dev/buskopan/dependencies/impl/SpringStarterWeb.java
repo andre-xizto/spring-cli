@@ -7,6 +7,11 @@ public class SpringStarterWeb extends BaseIDependency {
     private static final String VERSION = "3.4.1";
 
     @Override
+    public String getDisplayName() {
+        return "Spring Boot Starter Web";
+    }
+
+    @Override
     public String getMavenDependency() {
         return "<dependency>\n" +
                 "    <groupId>org.springframework.boot</groupId>\n" +

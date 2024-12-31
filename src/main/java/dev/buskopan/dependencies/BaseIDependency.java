@@ -7,6 +7,7 @@ public abstract class BaseIDependency implements IDependency {
 
     public abstract String getMavenDependency();
     public abstract String getGradleDependency();
+    public abstract String getDisplayName();
 
     @Override
     public String writeDependency(BuildToolsType buildTool) {

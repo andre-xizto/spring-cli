@@ -19,4 +19,9 @@ public class SpringDataJPA extends BaseIDependency {
     public String getGradleDependency() {
         return "implementation group: 'org.springframework.boot', name: 'spring-boot-starter-data-jpa', version: '"+VERSION+"'\n";
     }
+
+    @Override
+    public String getDisplayName() {
+        return "Spring Data JPA";
+    }
 }
