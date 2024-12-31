@@ -1,7 +1,6 @@
 package dev.buskopan.dependencies;
 
 import dev.buskopan.build_tools.BuildToolsType;
-import dev.buskopan.exceptions.DependencyNotFoundException;
 import dev.buskopan.exceptions.InvalidBuildToolException;
 
 public abstract class BaseIDependency implements IDependency {
