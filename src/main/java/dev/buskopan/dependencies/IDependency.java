@@ -4,4 +4,5 @@ import dev.buskopan.build_tools.BuildToolsType;
 
 public interface IDependency {
     String writeDependency(BuildToolsType buildTool);
+    String getDisplay();
 }

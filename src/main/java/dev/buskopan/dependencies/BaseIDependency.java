@@ -10,6 +10,11 @@ public abstract class BaseIDependency implements IDependency {
     public abstract String getDisplayName();
 
     @Override
+    public String getDisplay() {
+        return getDisplayName();
+    }
+
+    @Override
     public String writeDependency(BuildToolsType buildTool) {
         if (buildTool == BuildToolsType.MAVEN) {
             return getMavenDependency();
