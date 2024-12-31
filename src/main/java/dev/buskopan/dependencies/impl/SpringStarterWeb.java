@@ -9,7 +9,7 @@ public class SpringStarterWeb extends BaseIDependency {
     @Override
     public String getMavenDependency() {
         return "<dependency>\n" +
-                "    <groupId>org.springframework</groupId>\n" +
+                "    <groupId>org.springframework.boot</groupId>\n" +
                 "    <artifactId>spring-boot-starter-web</artifactId>\n" +
                 "    <version>"+VERSION+"</version>\n" +
                 "</dependency>\n";
