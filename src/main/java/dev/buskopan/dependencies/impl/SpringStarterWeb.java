@@ -2,15 +2,15 @@ package dev.buskopan.dependencies.impl;
 
 import dev.buskopan.dependencies.BaseIDependency;
 
-public class SpringWeb extends BaseIDependency {
+public class SpringStarterWeb extends BaseIDependency {
 
-    private static final String VERSION = "6.2.1";
+    private static final String VERSION = "3.4.1";
 
     @Override
     public String getMavenDependency() {
         return "<dependency>\n" +
                 "    <groupId>org.springframework</groupId>\n" +
-                "    <artifactId>spring-web</artifactId>\n" +
+                "    <artifactId>spring-boot-starter-web</artifactId>\n" +
                 "    <version>"+VERSION+"</version>\n" +
                 "</dependency>\n";
     }
